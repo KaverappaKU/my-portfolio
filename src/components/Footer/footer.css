@@ -1,0 +1,15 @@
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 0 100px;
+}
+
+.copyright, .social{
+    display: flex;
+    align-items: center;
+}
+
+.social img{
+    height: auto;
+    max-width: 100%;
+}

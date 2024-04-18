@@ -1,0 +1,73 @@
+/* Styling for main */
+
+.intro{
+    display: flex;
+}
+
+/* Styling for web development intro content */
+.web-dev-intro{
+    padding: 2em 0;
+    width: 800px;
+}
+
+/* Adding typing animations for Web Dev heading */
+.web-dev{
+    border-right: 1px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 7s steps(15) infinite, cursor .10s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    100% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing{
+    0%{
+        width: 0;
+        color: green;
+    }
+    50% {
+        color: blue;
+    }
+    100% {
+        width: 100%;
+        color: red; 
+    }
+}
+
+
+.web-dev-intro h1{
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 250px 50px 20px 150px;
+}
+
+.web-dev-intro p{
+    font-weight: normal;
+    font-size: 25px;
+    margin: 0 50px 0 150px;
+}
+
+/* Styling for web development logo */
+.web-dev-logo{
+    padding: 5em 0;
+    width: 800px;
+}
+
+.web-dev-logo img{
+    margin: 100px 0 75px 50px;
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.web-dev-logo img:hover{
+    transform: scale(1.3);
+    filter: grayscale(0%);
+}

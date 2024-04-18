@@ -1,0 +1,61 @@
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    width: 100%;
+    padding: 20px
+}
+
+.hamburger{
+    display: none;
+}
+
+.portfolio-logo{
+    display: block;
+}
+
+.contact-button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-button :hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+
+.contact{
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+    border-style: groove;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+	text-align: center;
+}
+
+.menu li{
+    margin-right: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.menu a:hover{
+    color:aqua;
+    transform: scale(1.1);
+}
+
+.logo-image{
+    width: 80px;
+    height: 80px;
+}

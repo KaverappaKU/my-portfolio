@@ -1,0 +1,99 @@
+.contact-me{
+    padding: 5em 0;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.contact-heading h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: var(--primary-color);
+}
+
+.fname, .lname, .email, .message{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.contact-form{
+    background-color: var(--primary-color);
+}
+
+.contact-form > label{
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contact-form > input{
+    font-weight: 500;
+    font-size: 20px;
+    width: 510px;
+    height: 30px;
+    border-style: none;
+}
+
+input, textarea, button{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+.message > textarea{
+    height: 200px;
+    resize: vertical;
+    border-style: none;
+}
+
+.send-button{
+    text-align: center;
+}
+
+/* .send-button button:hover{
+    background: white;
+    color: aqua;
+    transform: scale(1.2);
+    cursor: pointer;
+} */
+
+.submit{
+    height: 35px;
+    width: 100px;
+    font-size: medium;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+/* Send button loader styling */
+.load{
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: green;
+    animation: loader 1s ease infinite;
+    margin-left: 30px;
+}
+
+/* Send button animations */
+@keyframes loader{
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}

@@ -1,0 +1,27 @@
+/* Styling for Skills section */
+
+.skills{
+    padding: 5em 0;
+}
+
+.skills-heading h1{
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+}
+
+.skills-logo > div{
+    margin: 10px;
+}
+
+.skills-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 75px 220px 0 220px;
+}
+
+.skills-logo img{
+    height: auto;
+    max-width: 100%;
+}

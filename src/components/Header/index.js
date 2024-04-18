@@ -1,4 +1,7 @@
 import React from "react";
+import "./header.css";
+import brandLogo from "../../images/kav.png";
+import lightLogo from "../../images/light.png";
 
 export default function Header() {
   return (
@@ -21,14 +24,18 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <div class="portfoli-logo"></div>
+        <div class="portfoli-logo">
+          <img src={brandLogo} className="logo-image" />
+        </div>
         <div class="contact-button">
           <form action="#contact-me">
             <button type="submit" class="contact">
               Contact
             </button>
           </form>
-          <div class="modes"></div>
+          <div class="modes">
+            <img src={lightLogo} alt="light-mode-sun-image" id="mode" />
+          </div>
         </div>
       </header>
     </div>

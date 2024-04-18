@@ -1,0 +1,38 @@
+/* Styling for about me section */
+
+.about-me{
+    display: flex;
+}
+
+.profile-picture{
+    padding: 5em 0;
+    width: 550px;
+}
+
+.profile-picture img{
+    margin: 120px 150px 100px 100px;
+    height: 450px;
+    width: 450px;
+}
+
+.profile-picture img:hover{
+    filter: invert(20%);
+}
+
+.about-me-content{
+    padding: 5em 0;
+    width: 800px;
+}
+
+.about-me-content h1{
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 150px 0px 0 0px;
+}
+
+.about-me-content p{
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
