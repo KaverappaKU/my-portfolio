@@ -13,7 +13,7 @@ export default function About() {
           />
         </div>
         <div class="about-me-content">
-          <h1>Hi, I’m Kaverappa Web Developer</h1>
+          <h1>Hi, I’m Kaverappa</h1>
           <p>
             Forward-thinking Software Engineer with background working
             productively in dynamic environments.

@@ -2,12 +2,12 @@ import React from "react";
 import "./header.css";
 import brandLogo from "../../images/kav.png";
 import lightLogo from "../../images/light.png";
+import resume from "../../documents/KaverappaKU_Resume.pdf";
 
 export default function Header() {
   return (
     <div>
       <header class="main-header">
-        <div class="hamburger"></div>
         <nav class="navbar">
           <ul class="menu">
             <li>
@@ -20,7 +20,10 @@ export default function Header() {
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="/documents/CV.pdf">CV</a>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href={resume}>Resume</a>
             </li>
           </ul>
         </nav>
@@ -33,9 +36,6 @@ export default function Header() {
               Contact
             </button>
           </form>
-          <div class="modes">
-            <img src={lightLogo} alt="light-mode-sun-image" id="mode" />
-          </div>
         </div>
       </header>
     </div>

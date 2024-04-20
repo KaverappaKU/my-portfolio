@@ -1,23 +1,35 @@
 .main-header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 100%;
     width: 100%;
     padding: 20px
 }
 
-.hamburger{
-    display: none;
+.navbar{
+    padding: 20px;
 }
+
 
 .portfolio-logo{
     display: block;
+    padding: 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .portfolio-logo:hover img {
+    animation: spin 1s linear infinite; 
 }
 
 .contact-button{
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 20px;
 }
 
 .contact-button :hover{

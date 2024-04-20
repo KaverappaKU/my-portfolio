@@ -1,32 +1,32 @@
 /* Styling for main */
-
-.intro{
+.intro {
     display: flex;
+    align-items: center; 
+    padding: 5em 0;
 }
 
 /* Styling for web development intro content */
-.web-dev-intro{
-    padding: 2em 0;
-    width: 800px;
+.web-dev-intro {
+    padding: 2em;
+    width: 50%; 
 }
 
 /* Adding typing animations for Web Dev heading */
-.web-dev{
+.web-dev {
     border-right: 1px solid;
-    width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 7s steps(15) infinite, cursor .10s step-end infinite alternate;
+    animation: typing 7s steps(19) infinite, cursor .10s step-end infinite alternate;
 }
 
-@keyframes cursor{
+@keyframes cursor {
     100% {
         border-color: transparent;
     }
 }
 
-@keyframes typing{
-    0%{
+@keyframes typing {
+    0% {
         width: 0;
         color: green;
     }
@@ -35,39 +35,38 @@
     }
     100% {
         width: 100%;
-        color: red; 
+        color: red;
     }
 }
 
-
-.web-dev-intro h1{
+.web-dev-intro h1 {
     font-weight: bolder;
     font-size: 50px;
-    margin: 250px 50px 20px 150px;
+    margin-bottom: 10px; /* Reduce margin */
 }
 
-.web-dev-intro p{
+.web-dev-intro p {
     font-weight: normal;
     font-size: 25px;
-    margin: 0 50px 0 150px;
 }
 
 /* Styling for web development logo */
-.web-dev-logo{
-    padding: 5em 0;
-    width: 800px;
+.web-dev-logo {
+    padding: 2em;
+    width: 50%; /* Adjust width */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
 }
 
-.web-dev-logo img{
-    margin: 100px 0 75px 50px;
-    max-width: 100%;
+.web-dev-logo img {
+    max-width: 70%;
     height: auto;
     filter: grayscale(100%);
     transition: 0.5s ease;
     cursor: pointer;
 }
 
-.web-dev-logo img:hover{
+.web-dev-logo img:hover {
     transform: scale(1.3);
     filter: grayscale(0%);
 }
